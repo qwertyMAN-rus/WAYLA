@@ -1,0 +1,5 @@
+<container size="230, 60" color="#111111" gravity="top-center">
+    <image pos="10, 10" size="40. 40" id="select_item"></image>
+    <label pos="60, 10" color="#ffffff" id="block_name">Название блока</label>
+    <label pos="60, 30" color="#5050ff" id="mod_name">Мод</label>
+</container>
