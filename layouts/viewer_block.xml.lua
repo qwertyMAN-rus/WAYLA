@@ -15,7 +15,7 @@ HUD.set_block_handler(function(x, y, z, id)
     local n = full_name:find(':')
     local mod_name = full_name:sub(0, n - 1)
     if is_item then
-        local m = full_name:find('.item')
+        local m = full_name:find('.item') or 0
         block_name = gui.str(full_name:sub(n + 1, m - 1):gsub('_', ' '), mod_name)
     else
         block_name = gui.str(block.caption(id), mod_name)
